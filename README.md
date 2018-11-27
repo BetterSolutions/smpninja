@@ -1,0 +1,2 @@
+# smpninja
+SMP Ninja
