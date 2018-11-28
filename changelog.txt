@@ -1,0 +1,47 @@
+1.1
+-added SafeSend (right-click the tabs at the bottom to expand them
+-added third column (enabled through Settings menu, called Josh's notes field)
+-started using proper ini file handling
+-moved option to enable Web Bold scraping and themes to the Settings menu
+-known bug: if you make a change in the settings menu without going to the safesend tab, it unchecks everything.  Fixed in dev version, but that version is currently riddled with bugs.  For now just go to the safesend tab the first time you enter the settings menu.  You don't have to go back there until you close smpninja)
+-Yes, it's huge now, and best run in its own folder.  That's because it's got a built in web browser for SafeSend
+
+
+1.0
+-Implemented themes
+-Allowed saving of themes and option to scrape web bold via an ini file
+
+1.0rc4
+-implemented autocopy for rhsi check mibs
+-implemented autocopy for sub info
+-added "not hs" button to block autocopy on check mibs and sub info for cable & rhp chats
+-added support for on-the-fly defucking of Bold fields
+
+1.0rc3
+-I do not like this 3.  I shall wait for a different 3.
+
+1.0rc2
+-made compatible with pleb bold
+
+1.0rc1
+-added temporary TN field (can be used for any notes, really)
+-removed debugging labels from the left column
+-now shows contract rate in a spot where it ISN'T covered up by copy confirmations
+-more bug fixes
+-made stable as fuck
+
+0.8
+-fixed the many, many bugs of 0.6
+-tweaked the colour scheme
+-now shows contract rate
+
+0.6
+-Added 2nd column for concurrent chats
+-changed to dark colour scheme
+-Copy notes button now ignores (N/A) lines
+
+0.3a
+-Initial release
+-copy MAC, Model, MIBs
+
+
