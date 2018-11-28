@@ -1,0 +1,691 @@
+object decrapform1: Tdecrapform1
+  Left = 993
+  Height = 683
+  Top = 178
+  Width = 791
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = 'SMP Ninja'
+  ClientHeight = 663
+  ClientWidth = 791
+  Color = 4202496
+  Font.Color = clAqua
+  Menu = mmMainMenu
+  OnClose = FormClose
+  OnCreate = FormCreate
+  OnShow = FormShow
+  LCLVersion = '1.8.4.0'
+  Visible = True
+  object buQuit: TButton
+    Left = 704
+    Height = 25
+    Top = 576
+    Width = 80
+    Caption = '&Quit'
+    OnClick = buQuitClick
+    TabOrder = 0
+  end
+  object buClearAll: TButton
+    Left = 624
+    Height = 25
+    Top = 576
+    Width = 75
+    Caption = 'Clear All'
+    OnClick = buClearAllClick
+    TabOrder = 1
+  end
+  object imPoweredBy: TImage
+    Left = 560
+    Height = 30
+    Top = 608
+    Width = 228
+    OnClick = eggOnClick
+    Picture.Data = {
+      1754506F727461626C654E6574776F726B47726170686963AB0F000089504E47
+      0D0A1A0A0000000D49484452000000E40000001E0802000000B33C25A500000F
+      7249444154789CED5A7B549357B6DF8821210524630604A3121C234E81EB1D44
+      A6D78B06B56361A595A933B6A958C0DE1575EA05C62E6F900E44A1D3C2AA0F40
+      19A5CB313E8646ED48115CE00BC9E0F281845E855824A2213C0281481EC43CC0
+      DEDC3F76FBCD670811B54E6599DF3A7F7CDFFEF639679FBDF7397B9F733E0F08
+      E1821B6E4C044CFAA90570C38DF1C2EDAC6E4C18B89DD58D0903B7B3BA3161E0
+      765637260CDCCEEAC684C1E4B13E08F8BCC4DFFC27873DC3E715EF402603897A
+      A3E9BECE78F4EB73DB8B0EFFAB247C5E10A52767ACFBDDD56F6E25A4663E45F5
+      2556FD229B61C6435BB46DC8CFFE70CE8805E97728DEB53446911FEB3685FEA3
+      CAEB06788C3E67AD16E7BFF6AB57FDFD7C5C54BBA5E8085F91FA1CE57A5AC82A
+      4B6954AFC7CA2629CE7EF7CDA50070ACEA223F2D6FFCED878D983F36A8965974
+      41DF0DBB606BF2F25D101C35FE669F1F12CDDA55E68179C366CE43B3EFFF7D87
+      C45E4FAF5A6FC65AE63CD775057C5E41E6FAC2837F7F41D626C79555949E1CCF
+      8D796CB5573921A2F4E417640C044A7233A22238B7141DAED96495A5BF9C33EB
+      58D5C595AF2F12ED163F511795FD2DC4222AA5F9DFA6D0AF52FD549369FFA0F9
+      0340D88879B945F7A9FE5ED4F0D0538DE0C7C426634F9641E57452057D379C64
+      D2B87656019F5798B3C99B460D98CA786E323E191C73D60FDE49C087BB2A758D
+      B4615BE1A1B94BD76AB4BA84D44C0F76DCDCA56BB7151E426FF87D02F75F2BEA
+      63C061B3DE5BB90C00B67CB6DF055BFD89A2A8088EF8AB33734258D26B3714CA
+      EEF1777154DB4A786A32332C6EDAFC8D5339AAC9B4CDC6EE44B316006E53E87B
+      FDA62B26D3EF50BC5D372529CE36B79E29C9CD704179169CEA97EF19BCE362F9
+      6FF2F275519DC3661564AE2FD82F0180D317AF8EA7470E9BD579E5785F6339F1
+      DAD7582EAB2C7D12A91F83475656517AB2EF2BF41A694346EE5EC28AF5278A86
+      47466AA40D00A050766F2F3ABCBDE8B0FCACD8CFF7C5CAC90E146CF1F7F3B9D4
+      D88CA23A85A4383B363AF258D5C5FEFBBA00A6FF82B7D63F5117F386CD529A7F
+      03D5AFC6FB67B8946619549986CEFC29332BE84CE4C9D7DD0BFECEF687A91C17
+      EDC47363DE7D73E92D45C787398563519E05EF9BFADE326BF11905FE9642C7E5
+      3FD1ACFD935ED548F52DF263B968A15A5CD0D2762F602A03D7ACF1745ABE3F8F
+      C9989291BB175F0B7336053219DA41C3338E858C479C555259EB10D9057C5E6C
+      74E4FAAC9DA36B0E0F3FFC11E5784670D8AC051173F546D37F093F1F8B47C0E7
+      A1431C293F27FE5CB87875DA93F6E29086269AB57FD6290BA6CCECF6A4E6EBEE
+      CD1B31CF1B79504B632C9D36DFE9EE8AC3665D28DB392328005F43670689D293
+      3F7827814C11F0795F484E3FA9600E5865D60240259D296484922549346B5758
+      061F9B4C8BD2938303A726A40A2F94EDFCEBF16AD7CC92E2EC95AF2FF2A651F1
+      352D651521BFC56A2B3E74F2A94751929BF187B52BE72E5D4BAC9B8FA401A363
+      62EEE675971A9B1DD4C761B342670629945D4F2DC758A83F5124E0F39EA2E281
+      822DDE34EA97A76AC70AEB18D7345ADD96CFF6977EBA3967D7C1274A0046236C
+      C47C44DB0A00CB2DBA54531F00887DA671A6C76C9CCA19EB1CA07C7F1EE19700
+      A0D5197E9FC075A038F554019F577FA268FCB24D7F6803809501E10E9254D099
+      1B5D2EF9888C75BF93B5B415E66CEAD7EA9D6E4B047C9EB9F58C80CFC3804078
+      2A007C552DC58784D44CFABC379E65E2AD8A5F0C00FCB796111457E7ACF5278A
+      A85E94D16B55B5B8000070C1E7B059F5278A7437ABECCA3A870CCCAEAC931467
+      0340B5385F77B38A1824C113CF8D919F159B5BCFE0C8EB4F14C54647FECF7A7E
+      5F63B95D59273F2B1E8B1389D8B5B9F58C5D59171B1DD9D5DBEF2286629290B3
+      EBA0F873E1277B8E929518CF8D21675792E2EC7669D958ED1CD5B6CAD44DF60E
+      696BCFF53E4FAFDF06842F088E8A9B363F93114A64026425106311F079AF7242
+      C85F2FCBE40E944FF61C1D5D91C36615E66CE2B067745E398E831DCF0E1800D4
+      5D574EF5CBB30CAA2556FD583CA3CD2729CEF6F7F369B9AD0C9FCB7E2FFDFB73
+      12517AB2B9F50C1A91C366E56E5EE74DA376F50EECD9F64874BAAB526F2F3A2C
+      E0F37437AB901941361F5978517A322146BBB48CAC76F959311E982E5BF42B82
+      E8DC59057C5EB5383F363AB2A74FBBFD8FA91C368BE8B5F3CAF1D9B382C55F9D
+      5128BB396C56FD89E2D8E8C8BB2AB5C56AC3A900A483A1DB773B71FEB5B4DD43
+      A513B350529C7D72DFF696B67BA7CE5FF6A6518302A6C6464702C0EC59C12825
+      91133B7076F50E20F146F581051173652D6D971A9B01C045C08AE7C6C446475E
+      6A6C4E4B595577F57FBB7A0708BD08F8BC93FBB607321934AA17FC902A8CD50E
+      001CF009BAE0FDFDEE78CE88E5EB7EB9BD432A5337E5EBEE858D980936DC5E44
+      4786A56E29D01B4D0020BD76C3831D774BD1A1379A3CD8711EEC38D16EB103E5
+      0BC9E9D115CBF7E779D3A8814CC68CA000D4DEC27F0B732121002C088EFA98C1
+      364DF27CCBACFDB34E29EDBB2153376519540E6C4ECDB76841B8C56A7B73F96B
+      9FEC398AC147C0E70937F0BD69D4ABDFDC02806A71412093D1D4A2A8913624A4
+      0AD767EDB4586DC7AA2E7AB0E37EC15D836708FE7E3E2D6DF7C81A0E9D19F4ED
+      1D95378D9AB7791DD2E567C5DB32524A7233047CDE8DEA03B36705FBBCF2FDAE
+      B4FE4411F36753BA7AFB01804EA391440EE1920B272EA9BDA3C76EB7DBEDF6F6
+      8E1E24C6A7084B8E54C8DB94489754D62267DFC060DFC0A060EB8EFAEB37ED76
+      BBCE3004215CC1D61D041B272EC96CB19A2D564E5C1256EF1B1884106E75DD35
+      B3C52AD8BA43B45BAC330C492A6BB105BBDDDEA9D674AA3576BB5DB07587534E
+      08E14A2A6B91333E45C8894BD219863AD51A8781900B36DEDED123A9AC156CDD
+      61B658ED763B272E0987805271E292884FF129C2B19A0A9BBE50EDE96507C862
+      B0C3A62F7C9F1996C5609FA2338D933C8D933CB3186CD48CCE30246F53E2A83B
+      D51A4E5C1221B668B79868CD81E2B422AA4567186AEFE8315BAC8451C65350C2
+      7DBEC175347F3B8082E29D18104EF435DA7CF12942EC0E954FB0D9ED76799B12
+      CD61B7DBD1A0C457B2F2C9FA4467409939714968566C077B94B729510364BF92
+      54D66275E4A9BF7EF39F2372185EC9910AFBD8E8546B8861D45FBF69B658D1AE
+      2847FDF59BA86EC253517459731B8470D10F2495B5A2DD62741D799B52DEA6C4
+      16045B77A0B2E25384668B15E576CA8912629B441725472A5CD8AC6F60906813
+      F9D1E4382D1D3CF511ED8C2A477D02ED00F953663AD01303C2ED00C6499E8436
+      AAEBAE75AA35C4C426269883A792294E2BCA9ADB70B0B2E636C2099EA2240684
+      2B28DEC6499E61D3178E653E14A9BAEE1A514BD6DC467818E158E4D58A3CD990
+      812C64A75A83CB138470B1AE68B718A704E1A9B2E6369D6108D54E78AA838458
+      1C2F053ECC298C993F2F2AE29F69B8C56AD3EA0C1DDD7D7FFBFA3C39D55B1031
+      57AB33E0B986178502003D7DDA868A7DFE7E3E782DD42E2DC3809EBDEBA080CF
+      F3A651F5469368B7F842D94E00D01B4DEFA5E761A0911467BFB164E1997F5CAF
+      9136745E39AED6DCC75B253CCA75E0C430FD5E7A1E463114A648FC777C707A55
+      11C8645C6A6CC63651A4A35F9F2BC9CD983D2B58A3D52D5E9DC6FDF57C4C5134
+      5ADDE2D5E91C36CBE9F66B89559F64D200402623D4E1D30ACB20002826D3E3B9
+      31338202F44653C38D56BCC84539F110E7B24C4E04417C20539C56343DB024A4
+      0A45E9C951119CF5593B15CAEE786ECC388F93C8A8A033575806370CA917DA8C
+      B72974A7E67B63C9420068B8D18A5524C5D951111C8D5617BE2215358F99096A
+      F240C116B40E2A5CC0E7AD7C7D1100A46E2940ED95E466CC080AC0240D3349BD
+      D114337F9E70031F00BEAA966ECB4839567571FA34E6D00333AAFDDD37976AB4
+      3AEEAFE70340C4DCD053E72FDF55F5C82A4BF190D149CE1AC0F4EFEAEDC72CCA
+      831D479FF7C6CCFF7867F1EA74879D9D6D78044FAF4A7233FC7CE800B06841F8
+      5D951A008E949F6B979605074EBDA5E8D068750090BB799DDE68A27A511A2AF6
+      F9BEF27D32AA50760BF8BC766959DC6BFF2ECC2FE5A7E589D2936704053436DF
+      8EE7C6B44BCB4267068DE6C42B89D9B3A6A3A77E23572003667B63992A84350D
+      B56FB1DA0040B881BF627134009CACA92FCCD954FAE9474693190072761D14F0
+      79E5FB9D5FC0BEFBA01F1FF275DF27644BACFA2C834AD1D3B06148DDEBE9F589
+      FF2C4C28A95E94EB376F73D82CCCAD4FD6D423FFA07E08F37E22A52328F8EA50
+      F11BB9222155A850767FF04E82DE68FA42725A529C5DFAE966A7E2259AB53275
+      D326630F99B8C4AA7FDFD4B7EFBE42DD7565C3901A00549369AECD876B84ACB2
+      34626E280074F70EA0A736B528A85E1494BC5A9C0F00814C866D78045FFFF4DF
+      6BBFBDA3028019413FC77D1B26C1A60716F8C1B3FDFD7C02A632B43A03006CCB
+      48B9D4D87CA4FC5C6C74E465995C949E7CA16CA746AB0B64320A32D75F28DB29
+      CC2F0580868A7D5F4888BDDAA3C102232F39AF1AAB10292C3996617522581099
+      28393460DE4300131A22B540A2D9622D3952E194930846E4CC861CE89DA60144
+      2318D1B060DC4722465BC1D61D448A39BAE44F996907185D8C933CF7F9066378
+      25374B0C842C830B8AD38AE418EAA02E8782C9B4EB72D427709CE6C3F08D1902
+      396AEB0C437D0383D575D7C819A3836908EB604E8820F22B4C2DB0537CC6F1C6
+      A7081D2C8E29353140C79515AF5B7BFBEF3B9DBB64BCBD211BF76BB7141DCBD7
+      7C84C4ED45879B5A14B83DE4A7E5E1ACEAEAED5FBC3A8D08AC19B97BB1A2DE68
+      AA9136FC82BB86F8F4D95FBEB4586D5DBDFD19B97B3FCC2974CAC94FCBD36875
+      77556A6C13BB0864324E9DBF3CD62F29FBFE76CA62B5E98DA6635517C9FFB89C
+      3A7FD962B5D5481B8A0F9DFCE59C59FDF775B99BD72D5FF3D15847B0998CD0FD
+      BEC1C4556AAFA79794E6FF3183BD30288A7CBC8ACD02C05D957AD546111EA875
+      F70EA0AE5C509C5644A0562F353693D54546A259EBFADF1A00D8EF1B4CFC0F30
+      96F970716D6A514C8B7E1B00FE7ABCDA62B535B528C257A44E9FC60400AA17E5
+      644D7D426AE6E98B5709AD12A6C1369B5A14681D617EA9DE6842C917AF4EC75E
+      AA6AAF58ACB6F559BB0000FF97D2687519B97B6BA40D09A99935D2068BD5F643
+      9534723C7FE4AFAB786E4CB538BFA945F1A4F7902EF0A35CC9B80087CD3A50B0
+      E5B3BF7CF914691C81BEC672AA1785EA45C9C8DDFB5CA57DAEC832A8DE7EA075
+      F8BB4AED496DF5A2B752E8E5F49F3FE35F8B1C366BFB1F5345BBC5CF789F4206
+      FE894ABEDE7781479C55949EBC31692579157C1980971116AB6D427BEACB0027
+      FFB3BE54E0B05937AA0F78D3A8DB0A0FBD687F3CBAE10027A7012F15F0A78263
+      5517DD9EFAE2C313FC437E6A197E4AFC2636DAC3C363D91AE787416EBC5078D9
+      D3003726105EF634C08D0904B7B3BA3161F0FFDC821062CA0069D80000000049
+      454E44AE426082
+    }
+  end
+  object gbChat1: TGroupBox
+    Left = 8
+    Height = 565
+    Top = 3
+    Width = 384
+    Caption = 'Chat 1'
+    ClientHeight = 545
+    ClientWidth = 380
+    TabOrder = 2
+    object buCpAll: TButton
+      Left = 8
+      Height = 25
+      Top = 456
+      Width = 229
+      Caption = 'Just Copy Bloody Everything'
+      OnClick = buCpAllClick
+      TabOrder = 0
+    end
+    object buCpMAC: TButton
+      Left = 248
+      Height = 25
+      Top = 424
+      Width = 111
+      Caption = 'Copy MAC'
+      OnClick = buCpMACClick
+      TabOrder = 1
+    end
+    object buCpBoth: TButton
+      Left = 248
+      Height = 25
+      Top = 390
+      Width = 111
+      Caption = 'Copy Both'
+      OnClick = buCpBothClick
+      TabOrder = 2
+    end
+    object buCopy: TButton
+      Left = 248
+      Height = 25
+      Top = 360
+      Width = 111
+      Caption = 'Copy SGI Notes'
+      OnClick = buCopyClick
+      TabOrder = 3
+    end
+    object eModemMAC: TEdit
+      Left = 8
+      Height = 23
+      Top = 424
+      Width = 232
+      Color = 7228160
+      Font.Color = clAqua
+      ParentFont = False
+      ReadOnly = True
+      TabOrder = 4
+      Text = 'Modem MAC'
+    end
+    object eModemModel: TEdit
+      Left = 8
+      Height = 23
+      Top = 392
+      Width = 232
+      Color = 7228160
+      Font.Color = clAqua
+      OnClick = eModemModelClick
+      ParentFont = False
+      ReadOnly = True
+      TabOrder = 5
+      Text = 'Modem Model'
+    end
+    object laCopied: TLabel
+      Left = 248
+      Height = 1
+      Top = 320
+      Width = 1
+      ParentColor = False
+      OnClick = laCopiedClick
+    end
+    object eSGINotes: TEdit
+      Left = 8
+      Height = 23
+      Top = 360
+      Width = 232
+      Color = 7228160
+      Font.Color = clAqua
+      ParentFont = False
+      ReadOnly = True
+      TabOrder = 6
+      Text = 'SGI Notes'
+    end
+    object laPkg: TLabel
+      Left = 8
+      Height = 1
+      Top = 488
+      Width = 1
+      ParentColor = False
+    end
+    object laTN1: TLabel
+      Left = 8
+      Height = 15
+      Top = 326
+      Width = 16
+      Caption = 'TN'
+      ParentColor = False
+    end
+    object eTN1: TEdit
+      Left = 32
+      Height = 23
+      Top = 326
+      Width = 159
+      Color = 7228160
+      OnChange = eTN1Change
+      OnClick = eTN1Click
+      OnExit = eTN1Exit
+      TabOrder = 7
+    end
+    object meNotes: TMemo
+      Left = 8
+      Height = 279
+      Top = 40
+      Width = 365
+      Color = 7228160
+      Font.Color = clAqua
+      OnChange = meNotesChange
+      ParentFont = False
+      TabOrder = 8
+    end
+    object buClear: TButton
+      Left = 320
+      Height = 25
+      Top = 8
+      Width = 52
+      Caption = 'Clear'
+      OnClick = buClearClick
+      TabOrder = 9
+    end
+    object buCopyNotes: TButton
+      Left = 184
+      Height = 25
+      Top = 8
+      Width = 131
+      Caption = 'Copy Notes'
+      OnClick = buCopyNotesClick
+      TabOrder = 10
+    end
+    object buNotHS1: TButton
+      Left = 128
+      Height = 25
+      Top = 8
+      Width = 51
+      Caption = 'Not HS'
+      OnClick = buNotHS1Click
+      TabOrder = 11
+    end
+  end
+  object gbChat2: TGroupBox
+    Left = 400
+    Height = 565
+    Top = 3
+    Width = 384
+    Caption = 'Chat 2'
+    ClientHeight = 545
+    ClientWidth = 380
+    TabOrder = 3
+    object buCpAll2: TButton
+      Left = 8
+      Height = 25
+      Top = 456
+      Width = 229
+      Caption = 'Just Copy Bloody Everything'
+      OnClick = buCpAll2Click
+      TabOrder = 0
+    end
+    object buCpMAC2: TButton
+      Left = 248
+      Height = 25
+      Top = 424
+      Width = 111
+      Caption = 'Copy MAC'
+      OnClick = buCpMAC2Click
+      TabOrder = 1
+    end
+    object buCpBoth2: TButton
+      Left = 248
+      Height = 25
+      Top = 390
+      Width = 111
+      Caption = 'Copy Both'
+      OnClick = buCpBoth2Click
+      TabOrder = 2
+    end
+    object buCopy2: TButton
+      Left = 248
+      Height = 25
+      Top = 360
+      Width = 111
+      Caption = 'Copy SGI Notes'
+      OnClick = buCopy2Click
+      TabOrder = 3
+    end
+    object eModemMAC2: TEdit
+      Left = 8
+      Height = 23
+      Top = 424
+      Width = 232
+      Color = 7228160
+      Font.Color = clAqua
+      ParentFont = False
+      ReadOnly = True
+      TabOrder = 4
+      Text = 'Modem MAC'
+    end
+    object laTN2: TLabel
+      Left = 8
+      Height = 15
+      Top = 326
+      Width = 16
+      Caption = 'TN'
+      ParentColor = False
+    end
+    object eTN2: TEdit
+      Left = 32
+      Height = 23
+      Top = 326
+      Width = 159
+      Color = 7228160
+      OnChange = eTN2Change
+      OnClick = eTN2Click
+      OnExit = eTN2Exit
+      TabOrder = 5
+    end
+    object laPkg2: TLabel
+      Left = 8
+      Height = 1
+      Top = 488
+      Width = 1
+      ParentColor = False
+    end
+    object buNotHS2: TButton
+      Left = 128
+      Height = 25
+      Top = 8
+      Width = 51
+      Caption = 'Not HS'
+      OnClick = buNotHS2Click
+      TabOrder = 6
+    end
+    object buClear2: TButton
+      Left = 320
+      Height = 25
+      Top = 8
+      Width = 52
+      Caption = 'Clear'
+      OnClick = buClear2Click
+      TabOrder = 7
+    end
+    object eSGINotes2: TEdit
+      Left = 8
+      Height = 23
+      Top = 360
+      Width = 232
+      Color = 7228160
+      Font.Color = clAqua
+      ParentFont = False
+      ReadOnly = True
+      TabOrder = 8
+      Text = 'SGI Notes'
+    end
+    object eModemModel2: TEdit
+      Left = 8
+      Height = 23
+      Top = 392
+      Width = 232
+      Color = 7228160
+      Font.Color = clAqua
+      OnClick = eModemModel2Click
+      ParentFont = False
+      ReadOnly = True
+      TabOrder = 9
+      Text = 'Modem Model'
+    end
+    object buCopyNotes2: TButton
+      Left = 184
+      Height = 25
+      Top = 8
+      Width = 131
+      Caption = 'Copy Notes'
+      OnClick = buCopyNotes2Click
+      TabOrder = 10
+    end
+    object meNotes2: TMemo
+      Left = 8
+      Height = 279
+      Top = 40
+      Width = 365
+      Color = 7228160
+      Font.Color = clAqua
+      OnChange = meNotes2Change
+      ParentFont = False
+      TabOrder = 11
+    end
+  end
+  object PageControl1: TPageControl
+    Left = 2
+    Height = 280
+    Top = 640
+    Width = 792
+    ActivePage = tsSS1
+    TabIndex = 0
+    TabOrder = 4
+    OnMouseDown = PageControl1MouseDown
+    object tsSS1: TTabSheet
+      Caption = 'Chat1 Safesend'
+      ClientHeight = 252
+      ClientWidth = 784
+      object cwSS1: TCEFWindowParent
+        Left = 0
+        Height = 256
+        Top = 0
+        Width = 784
+        Color = clGray
+        TabOrder = 0
+      end
+    end
+    object tsSS2: TTabSheet
+      Caption = 'Chat2 Safesend'
+      ClientHeight = 252
+      ClientWidth = 784
+      object cwSS2: TCEFWindowParent
+        Left = 0
+        Height = 256
+        Top = 0
+        Width = 784
+        Color = clGray
+        TabOrder = 0
+      end
+    end
+  end
+  object gbJosh: TGroupBox
+    Left = 792
+    Height = 565
+    Top = 3
+    Width = 384
+    Caption = 'Josh''s frickin'' notes thingy'
+    ClientHeight = 545
+    ClientWidth = 380
+    TabOrder = 5
+    object buJoshClear: TButton
+      Left = 320
+      Height = 25
+      Top = 8
+      Width = 52
+      Caption = 'Clear'
+      OnClick = buJoshClearClick
+      TabOrder = 0
+    end
+    object meJoshNotes: TMemo
+      Left = 8
+      Height = 490
+      Top = 40
+      Width = 365
+      OnChange = meJoshNotesChange
+      TabOrder = 1
+    end
+  end
+  object mmMainMenu: TMainMenu
+    left = 40
+    top = 576
+    object mFile: TMenuItem
+      Caption = '&File'
+      OnClick = mFileClick
+      object meSettings: TMenuItem
+        Caption = '&Settings'
+        OnClick = meSettingsClick
+      end
+      object meQuit: TMenuItem
+        Caption = '&Quit'
+        OnClick = meQuitClick
+      end
+    end
+    object mHelp: TMenuItem
+      Caption = '&Help'
+      object mAbout: TMenuItem
+        Caption = '&About'
+        OnClick = mAboutClick
+      end
+    end
+  end
+  object Timer1: TTimer
+    OnTimer = Timer1Timer
+    left = 8
+    top = 576
+  end
+  object iniPropStore: TIniPropStorage
+    StoredValues = <    
+      item
+        Name = 'theme'
+        Value = '0'
+      end    
+      item
+        Name = 'swb'
+        Value = 'true'
+      end    
+      item
+        Name = 'left'
+        Value = '1113'
+      end    
+      item
+        Name = 'top'
+        Value = '145'
+      end    
+      item
+        Name = 'JoshNotesOn'
+      end>
+    IniFileName = 'smpninja.ini'
+    IniSection = 'Settings'
+    OnRestoreProperties = iniPropStoreRestoreProperties
+    left = 72
+    top = 576
+  end
+  object Chromium1: TChromium
+    left = 104
+    top = 576
+  end
+  object Chromium2: TChromium
+    left = 136
+    top = 576
+  end
+  object ChromeTimer: TTimer
+    Interval = 10
+    OnTimer = ChromeTimerTimer
+    left = 168
+    top = 576
+  end
+  object ssIni: TIniPropStorage
+    StoredValues = <    
+      item
+        Name = 'FirstLast'
+        Value = 'true'
+      end    
+      item
+        Name = 'PostalCode'
+        Value = 'true'
+      end    
+      item
+        Name = 'dob'
+        Value = 'false'
+      end    
+      item
+        Name = 'pin'
+        Value = 'false'
+      end    
+      item
+        Name = 'address'
+        Value = 'true'
+      end    
+      item
+        Name = 'AcctNum'
+        Value = 'false'
+      end    
+      item
+        Name = 'HomePhone'
+        Value = 'false'
+      end    
+      item
+        Name = 'L4SIN'
+        Value = 'false'
+      end    
+      item
+        Name = 'L4Drivers'
+        Value = 'false'
+      end    
+      item
+        Name = 'CellPhone'
+        Value = 'false'
+      end    
+      item
+        Name = 'dotcomUser'
+        Value = 'false'
+      end    
+      item
+        Name = 'dotcomEmail'
+        Value = 'false'
+      end    
+      item
+        Name = 'L4CC'
+        Value = 'false'
+      end    
+      item
+        Name = 'currentPwd'
+        Value = 'false'
+      end    
+      item
+        Name = 'desiredPwd'
+        Value = 'false'
+      end    
+      item
+        Name = 'specialQuestion'
+        Value = 'false'
+      end    
+      item
+        Name = 'otherPrompt'
+        Value = 'false'
+      end    
+      item
+        Name = 'other2Prompt'
+        Value = 'false'
+      end    
+      item
+        Name = 'acctEmail'
+        Value = 'false'
+      end>
+    IniFileName = 'smpninja.ini'
+    IniSection = 'SafeSend'
+    OnRestoreProperties = ssIniRestoreProperties
+    left = 200
+    top = 576
+  end
+end

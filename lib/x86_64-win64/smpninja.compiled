@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="C:\apps\lazarus\fpc\3.0.4\bin\x86_64-win64\fpc.exe" Date="1286834845"/>
+  <Params Value=" -MObjFPC -Scghi -CX -O3 -XX -WG -l -vewnhibq -FiC:\Users\mark.huculak\Documents\Lazarus\ninja\lib\x86_64-win64 -FuC:\apps\lazarus\cef4delphi-old\CEF4Delphi-69.0.3497.100\packages\lib\x86_64-win64 -FuC:\apps\lazarus\lcl\units\x86_64-win64\win32 -FuC:\apps\lazarus\lcl\units\x86_64-win64 -FuC:\apps\lazarus\components\lazutils\lib\x86_64-win64 -FuC:\apps\lazarus\packager\units\x86_64-win64 -FuC:\Users\mark.huculak\Documents\Lazarus\ninja\ -FUC:\Users\mark.huculak\Documents\Lazarus\ninja\lib\x86_64-win64\ -dLCL -dLCLwin32 smpninja.lpr"/>
+</CONFIG>

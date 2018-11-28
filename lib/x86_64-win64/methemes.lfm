@@ -1,0 +1,62 @@
+object decrapfThemes: TdecrapfThemes
+  Left = 1277
+  Height = 78
+  Top = 46
+  Width = 343
+  Caption = 'Themes'
+  ClientHeight = 78
+  ClientWidth = 343
+  Color = 4202496
+  Font.Color = clAqua
+  OnCreate = FormCreate
+  OnShow = FormShow
+  LCLVersion = '1.8.4.0'
+  object cbSelectTheme: TComboBox
+    Left = 96
+    Height = 23
+    Top = 8
+    Width = 240
+    AutoDropDown = True
+    Color = 7228160
+    ItemHeight = 15
+    OnChange = cbSelectThemeChange
+    Style = csDropDownList
+    TabOrder = 0
+  end
+  object laSelectDD: TLabel
+    Left = 7
+    Height = 15
+    Top = 8
+    Width = 74
+    Caption = 'Select Theme:'
+    ParentColor = False
+    OnClick = laSelectDDClick
+  end
+  object buApply: TButton
+    Left = 176
+    Height = 25
+    Top = 50
+    Width = 75
+    Caption = '&Apply'
+    OnClick = buApplyClick
+    TabOrder = 1
+  end
+  object buCancel: TButton
+    Left = 256
+    Height = 25
+    Top = 50
+    Width = 75
+    Caption = '&Cancel'
+    OnClick = buCancelClick
+    TabOrder = 2
+  end
+  object buOK: TButton
+    Left = 96
+    Height = 25
+    Top = 50
+    Width = 75
+    Caption = '&OK'
+    OnClick = buOKClick
+    TabOrder = 3
+  end
+end
